@@ -57,9 +57,11 @@ public class RootController {
 	
 	@ResponseBody
 	@GetMapping("/check_id/{id}")
-	String checkId(@PathVariable String id) {
-		System.out.println(id);
+	String checkId(@PathVariable String id)throws Exception{
+	
+		if(service.checkId(id))
+			return "OK";
 		
-		return "OK";
+		return "FAIL";
 	}
 }

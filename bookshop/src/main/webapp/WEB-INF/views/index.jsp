@@ -36,6 +36,7 @@
 			<div><a href="orders/list">주문관리</a></div>
 			<div><a href="member/list">사용자 관리</a></div>
 		</div>
+		
 	</div>
 </body>
 </html>

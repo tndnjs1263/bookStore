@@ -24,7 +24,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="kr.ac.kopo" />
-	
+	<!-- 
 	<interceptors>
 		<interceptor>
 			<mapping path="/book/**"/>
@@ -40,5 +40,5 @@
 			<beans:bean class="kr.ac.kopo.bookshop.interceptor.AdminInterceptor"></beans:bean>
 		</interceptor>
 	</interceptors>
-	
+	-->
 </beans:beans>
